@@ -21,7 +21,8 @@ define(function(require, exports, module) {
         prepareView = new PrepareView();
     },
     routes: {
-      "": "index"
+      "": "index",
+      "*action":"index"
     },
 
     index: function() {
